@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Tamilan_BotsZ')
+                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/fatherprovider')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -47,7 +47,7 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('💲 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💲', url='https://t.me/Moviesearchbotis'),
+            InlineKeyboardButton('💲 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💲', callback_data='earn'),
 
             InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/movieqrpstrasbbe')
 
@@ -104,7 +104,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💲 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💲', url='https://t.me/Moviesearchbotis'),
+            InlineKeyboardButton('💲 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💲', callback_data='earn'),
             InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/movieqrpstrasbbe')
             ],[
             InlineKeyboardButton('✨ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ✨', callback_data='sources')
